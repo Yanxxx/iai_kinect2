@@ -276,7 +276,6 @@ private:
         combine(color, depthDisp, combined);
         //combined = color;
 
-        // cv::putText(combined, oss.str(), pos, font, sizeText, colorText, lineText, CV_AA); Core.LINE_AA
         cv::putText(combined, oss.str(), pos, font, sizeText, colorText, lineText, cv::LINE_AA);
         cv::imshow("Image Viewer", combined);
       }
